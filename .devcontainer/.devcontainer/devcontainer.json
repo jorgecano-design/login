@@ -1,0 +1,21 @@
+{
+  "name": "PHP para Clase",
+  "image": "mcr.microsoft.com/devcontainers/php:1-8.2-bullseye",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ikappas.composer",
+        "bmewburn.vscode-intelephense-client",
+        "xdebug.php-debug"
+      ]
+    }
+  },
+  "forwardPorts": [8080],
+  "features": {
+    "ghcr.io/devcontainers/features/github-cli:1": {}
+  },
+  "postCreateCommand": "if [ -f composer.json ]; then composer install; fi",
+  "postAttachCommand": {
+    "server": "php -S localhost:8080 -t ."
+  }
+}
