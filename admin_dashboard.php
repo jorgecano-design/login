@@ -24,7 +24,7 @@ if (!isset($_SESSION['usuario']) || $_SESSION['rol'] != 'admin') {
     <h1>👑 Panel de Administrador</h1>
     <p>Bienvenido, <?php echo htmlspecialchars($_SESSION['usuario']); ?> (rol: admin)</p>
     <p>Aquí puedes gestionar usuarios, productos, etc.</p>
-    <a href="login.php?salir=1" class="btn-salir">Cerrar sesión</a>
+    <a href="index.php?salir=1" class="btn-salir">Cerrar sesión</a>
 </div>
 <div class="card">
     <h3>Acciones de admin</h3>
