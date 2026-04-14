@@ -1,1 +1,14 @@
-{"admin":"$2y$10$xpSH7pda9FnyanRYcfIT6O0ql4yB7.cmSLbgQ51aXEoKOaK31pGIq"}
+{
+    "admin": {
+        "password": "$2y$10$j8nLTCkosjracGIHEGrvjO8xlf5ezYmMm8WSye\/4wLo6ZdRA.xILK",
+        "rol": "admin"
+    },
+    "carlos": {
+        "password": "$2y$10$G\/gMFtlu9Dc9KneWT.1ZjuvsVQtfxBAsscHOzjHuP8vkTH\/V13zUC",
+        "rol": "usuario"
+    },
+    "invitado": {
+        "password": "$2y$10$L7.iKo4m\/WHi\/lmeH6ZFcOwDvSEJpuAJ4U6XY9dwc.bMTFSY\/IW8a",
+        "rol": "invitado"
+    }
+}
